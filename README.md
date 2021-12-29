@@ -7,7 +7,7 @@ Tic-tac-toe is a two player game (one of them being your computer program). The 
 
 #This project is build in Python. We have used Tkinter, the standard GUI library for python for creating GUI elements in this project.
 
-#CONTRIBUTORS-
+# CONTRIBUTORS-
  1. Samiksha Sharma
  2. Shatakshee Mishra
  3. Yotshi Jain
