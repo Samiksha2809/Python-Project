@@ -72,8 +72,6 @@ def Btnclick(buttons):
     else:
         messagebox.showinfo("Tic Tac Toe", "Button is already clicked")
 
-
-
 def checkforwin():
     global button1, button2, button3, button4, button5, button6, button7, button8, button9
     if (button1["text"]=="X" and button2["text"]=="X" and button3["text"]=="X") or (button4["text"]=="X" and button5["text"]=="X" and button6["text"]=="X") or (button7["text"]=="X" and button8["text"]=="X" and button9["text"]=="X") or (button1["text"]=="X" and button5["text"]=="X" and button9["text"]=="X") or (button3["text"]=="X" and button5["text"]=="X" and button7["text"]=="X") or (button1["text"]=="X" and button4["text"]=="X" and button7["text"]=="X") or (button2["text"]=="X" and button5["text"]=="X" and button8["text"]=="X") or (button3["text"]=="X" and button6["text"]=="X" and button9["text"]=="X"):
@@ -110,7 +108,5 @@ pa = StringVar()
 pb = StringVar()
 
 createWidgets()
-
-
 
 root.mainloop()
